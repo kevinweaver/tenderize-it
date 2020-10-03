@@ -1,0 +1,19 @@
+node_modules/
+cache/
+build/
+typechain/
+artifacts/
+coverage*
+
+# generic files
+.DS_Store
+.env*
+!.env.example
+.pnp*
+npm-debug.log*
+tsconfig.tsbuildinfo
+yarn.lock
+yarn-debug.log*
+yarn-error.log*
+*.log
+!/yarn.lock
